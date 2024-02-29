@@ -30,12 +30,12 @@ h1 {
 
 .ux { background-color: #a201a2; }
 .dev-frontend { background-color: #11f911; }
-.dev-backend { background-color: #f42929; }
+.dev-backend { background-color: #006eff; }
 
 #todo{
     background-color: pink;
 }
-#inProgress{background-color: #8b75f9;
+#inProgress{background-color: #e80f0f;
 }
 #done{
     background-color: rgb(2, 192, 2);
