@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Scrum Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <h1>Scrum Board</h1>
+    <div id="addTaskForm">
+      <input
+        type="text"
+        id="taskDescription"
+        placeholder="Beskrivning av uppgiften"
+      />
+      <select id="taskCategory">
+        <option value="ux">UX</option>
+        <option value="dev frontend">Dev Frontend</option>
+        <option value="dev backend">Dev Backend</option>
+      </select>
+      <button id="addTask">Lägg till Task</button>
+    </div>
+    <div class="board">
+      <div class="column" id="todo">
+        <h2>To Do</h2>
+      </div>
+      <div class="column" id="inProgress">
+        <h2>In Progress</h2>
+      </div>
+      <div class="column" id="done">
+        <h2>Done</h2>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 30%;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.column h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+.task {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ux { background-color: #a201a2; }
+.dev-frontend { background-color: #11f911; }
+.dev-backend { background-color: #f42929; }
+
+#todo{
+    background-color: pink;
+}
+#inProgress{background-color: #8b75f9;
+}
+#done{
+    background-color: rgb(2, 192, 2);
+}
